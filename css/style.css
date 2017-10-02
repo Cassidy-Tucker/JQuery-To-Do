@@ -17,3 +17,17 @@
   border-color: "black";
   padding: 5px;
 }
+
+ul li {
+  list-style: none;
+  font-size: 30px;
+}
+
+.astext{
+  background: none;
+  border: none;
+  margin: 0;
+  padding: 0;
+  font-size: 30px;
+  color: grey;
+}
