@@ -1,0 +1,19 @@
+.mydiv{
+  font-family: cursive;
+}
+.right {
+  float: right;
+  width: 300px;
+  border: 2px;
+  border-style:double;
+  border-color: "black";
+  padding: 5px;
+}
+.left{
+  float: left;
+  width: 300px;
+  border: 2px;
+  border-style: double;
+  border-color: "black";
+  padding: 5px;
+}
