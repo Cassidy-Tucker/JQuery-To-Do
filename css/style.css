@@ -1,0 +1,40 @@
+.right{
+  float: right;
+  width: 300px;
+  border: 2px;
+  border-style: double;
+  border-color: "black";
+  padding: 5px;
+}
+
+.left{
+  float: right;
+  width: 300px;
+  border: 2px;
+  border-style: double;
+  border-color: "black";
+  padding: 5px;
+}
+
+body{
+  font-family: times;
+  font-size: 20px;
+  font-style: oblique;
+  font-weight: bold;
+  color: grey;
+}
+
+
+ul li {
+  list-style: none;
+  font-size: 30px;
+}
+
+.astext {
+    background:none;
+    border:none;
+    margin:0;
+    padding:0;
+    font-size: 30px;
+    color: grey;
+}
