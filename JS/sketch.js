@@ -1,4 +1,10 @@
-$(document).ready(function(){});
+$(document).ready(function(){
+  $('.astext').click(function(){
+    $(this).fadeOut("slow",function(){
+      $(this).appendTo(".done").addClass("done-task");
+    })
+  })
+});
 
 function setup(){
   createCanvas(window.innerWidth, window.innerHeight);
