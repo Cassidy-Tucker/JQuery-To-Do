@@ -3,22 +3,20 @@
   float: right;
   width: 300px;
   border: 2px;
-  border-style:double;
-  border-color: "black";
   padding: 5px;
 }
 .left{
   float: left;
   width: 300px;
   border: 2px;
-  border-style: double;
-  border-color: "black";
   padding: 5px;
 }
 
 ul li {
   list-style: none;
-  font-size: 30px;
+  font-family: 'Amatic SC', cursive;
+  font-size: 1em;
+
 }
 
 .astext{
@@ -27,5 +25,9 @@ ul li {
   margin: 0;
   padding: 0;
   font-size: 30px;
-  color: grey;
+  color: 'black';
+}
+h1{
+  font-family: 'Pacifico', cursive;
+  font-size: 3em;
 }

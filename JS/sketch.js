@@ -1,9 +1,18 @@
-$(document).ready(function(){
-  $('.astext').click(function(){
-    $(this).fadeOut("slow",function(){
-      $(this).appendTo(".done").addClass("done-task");
-    })
-  })
+
+
+
+$( document ).ready(function() {
+  $('.astext').click(function() {
+      $(this).fadeOut( "slow", function() {
+        if($(this).find("button").is(':clicked')){
+          $(this).appendTo(".done").addClass("done-task");
+        }else{
+          $(this).appendTo(".task").removeClass("done-task");
+        }
+        $(this).fadeIn("slow");
+      });
+  });
+  $(".done-task button").prop( "disabled", true ); //Disable
 });
 
 function setup(){
